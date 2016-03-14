@@ -1,0 +1,30 @@
+{
+  "name": "gulp-fix-json",
+  "version": "0.0.1",
+  "description": "Gulp plugin for fixing json files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jasmine-node test/"
+  },
+  "keywords": [
+    "gulpplugin",
+    "json",
+    "jsonic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Espesen/gulp-fix-json.git"
+  },
+  "homepage": "https://github.com/Espesen/gulp-fix-json",
+  "author": "Esa Toivola",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "jsonic": "^0.2.2",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "vinyl": "^1.1.1"
+  }
+}
